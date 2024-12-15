@@ -5,7 +5,7 @@ This Terraform configuration deploys a highly available and secure infrastructur
 - A virtual network with customizable subnets
 - A bastion host for secure remote access 
 - An availability set containing two virtual machines
-- A linux virtual machines running apache web servers behind a load balancer
+- A linux virtual machine running an apache web server behind a load balancer
 - A network security group associated with subnets 1 and 3
 - An Azure key vault which contains the ssh keys for the virtual machines
 - A storage account accessible only from the virtual network
